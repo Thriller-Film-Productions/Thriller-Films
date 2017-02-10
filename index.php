@@ -1,4 +1,4 @@
-// initialization of login system and generation code
+<?php>// initialization of login system and generation code
 $oSimpleLoginSystem = new SimpleLoginSystem();
 echo $oSimpleLoginSystem->getLoginBox();
 // class SimpleLoginSystem
@@ -56,3 +56,4 @@ function check_login($sName, $sPass) {
 return ($this->aExistedMembers[$sName] == $sPass);
 }
 }
+?/
