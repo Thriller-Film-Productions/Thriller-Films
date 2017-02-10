@@ -24,7 +24,7 @@ $this->simple_logout();
 if ($_REQUEST['username'] && $_REQUEST['password']) {
 if ($this->check_login($_REQUEST['username'], MD5($_REQUEST['password']))) {
 $this->simple_login($_REQUEST['username'], $_REQUEST['password']);
-return 'Hello ' . $_REQUEST['username'] . '! ' . $sLogoutForm;
+return 'Hello. Welcome to Admin' . $_REQUEST['username'] . '! ' . $sLogoutForm;
 } else {
 return 'Username or Password is incorrect' . $sLoginForm;
 }
