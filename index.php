@@ -8,7 +8,7 @@ var $aExistedMembers; // Existed members array
 // constructor
 function SimpleLoginSystem() {
 $this->aExistedMembers = array(
-'User1' => 'd8578edf8458ce06fbc5bb76a58c5ca4',  //Sample: MD5('qwerty')
+'BOI' => 'd8578edf8458ce06fbc5bb76a58c5ca4',  //Sample: MD5('BOI')
 'User2' => 'd8578edf8458ce06fbc5bb76a58c5ca4'
 );
 }
